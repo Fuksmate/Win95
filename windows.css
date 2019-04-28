@@ -1,0 +1,39 @@
+.window{
+    width: 600px;
+    height: 390px;
+    background-color: #01007F;
+    border:1px solid black;
+}
+
+.box{
+    width: 600px;
+    height: 360px;
+    background-color: #C0C0C2;
+    position: absolute;
+    top:30px;
+}
+.content{
+    width: 580px;
+    height: 290px;
+    background-color: white;
+    position: absolute;
+    border-left:2px solid black;
+    border-top:1px solid black;
+    top:30px;
+    left:10px;
+    
+}
+.navWindow{
+    width: 85px;
+    height: 30px;
+   
+    float: right;
+    margin-top:2px;
+}
+.boxNavWindow{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: #C1C1C1;
+    
+}

@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 1920px;
+    height: 100vh;
+    background-color: #1D96AB;
+    overflow:hidden;
+}
+.main{
+   
+    position: relative;
+    background-color: #1D96AB;
+}
+.absolute{
+    position: absolute;
+}
+.stripe{
+    width: 1920px;
+    height: 31px;
+    background-color: 	#BFB8BF;
+    
+    position: absolute;
+    top:calc(100vh - 31px);
+
+
+}
+.stripeOnApp{
+    margin-left:50px;
+}
+.app{
+    width: 90px;
+    height: 90px;
+    margin:10px; 
+    background-color: yellow;
+}
+.app{
+    margin-top:0;
+}
+.StartImg{
+    height: 25px;
+    width: 100px;
+    margin:2px;
+    border-top: 1px solid white;
+    border-left:1px solid white;
+    border-right:1px solid black;
+    border-bottom: 1px solid black;
+}
+

@@ -1,0 +1,82 @@
+ <!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Windows 95</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="windows.css">
+</head>
+
+<body onscroll="ScrollTop()">
+
+    <div class="main">
+        <div onmousedown="startMoveWindow(event)"  id="Windows1" class="window ">
+             <nav onmousedown="stopPropagation1(event)"id="but" class="navWindow">
+                    <div id="minWindow" class="boxNavWindow"></div>
+                    <div id="maxWindow" class="boxNavWindow"></div>
+                    <div id="offWindow" class="boxNavWindow"></div>
+                
+                </nav>
+            <div onmousedown="stopPropagation(event)"id="but1"class="box"> 
+                <div class="content">
+               
+                </div></div>
+        </div>
+        <div class="stripeOnApp">
+            <div onmousedown="startMoveWindow(event)"  id="myFolder"class="app ">
+
+            </div>
+            <div onmousedown="startMoveWindow(event)"  class="  app">
+
+            </div>
+            <div onmousedown="startMoveWindow(event)"  class="  app">
+
+            </div>
+            <div onmousedown="startMoveWindow(event)" class="  app">
+
+            </div>
+            <div  onmousedown="startMoveWindow(event)" class="  app">
+
+            </div>
+            <div onmousedown="startMoveWindow(event)"  id="myFolder"class="app ">
+
+            </div>
+            <div onmousedown="startMoveWindow(event)"  class="  app">
+
+            </div>
+            <div onmousedown="startMoveWindow(event)"  class="  app">
+
+            </div>
+            <div onmousedown="startMoveWindow(event)" class="  app">
+
+            </div>
+            <div  onmousedown="startMoveWindow(event)" class="  app">
+
+            </div>
+
+        </div>
+
+
+
+        <div class="stripe">
+            <img class="StartImg" src="image/start.png">
+
+        </div>
+    </div>
+    <script src="script/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    
+    <script type="text/javascript" src="script/jquery.js"></script>
+    
+    <script type="text/javascript" Language="javascript">
+        function ScrollTop() {
+            document.body.scrollTop = 0;
+        }
+    </script>
+</body>
+
+</html>
